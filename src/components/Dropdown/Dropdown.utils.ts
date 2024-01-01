@@ -8,15 +8,6 @@ export const createDefaultString = (
 ) => {
   let defaultSelect;
 
-  //   if (as && selections.hasSongs) {
-  //     const activeSong = so.filter((s) => s.id === selections.songSelected);
-  //     defaultSelect = activeSong[0]
-  //       ? activeSong[0].name
-  //       : so[0].name || "Artist has no songs";
-  //   } else {
-  //     defaultSelect = "Please select artist";
-  //   }
-
   if (as && so) {
     const activeSong = so.filter((s) => s.id === selections.songSelected);
     defaultSelect = activeSong[0] ? activeSong[0].name : so[0].name;
