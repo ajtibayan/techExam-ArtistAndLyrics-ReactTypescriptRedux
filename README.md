@@ -13,3 +13,14 @@ I enjoyed coding this technical exam challenge! The following are some bullet po
 - A nice to have with this project would've been to also build a backend API for the React UI to interact with and have persistent data but at the risk of sounding like a broken record, time did not permit for me to do that
 
 Thank you for the opportunity to complete and submit this technical exam. I hope you enjoy reviewing my work and I am excited about the prospect of working with your company!
+
+## Installation and Test Running Guide
+
+1. Clone Github repo or download and extract files into a local folder on a machine with Node/NPM installed
+2. Open a terminal and make sure you are in the folder where the repo was cloned/files were extracted to
+3. At the command prompt, type `npm install` and press enter. This will install app dependencies and create node_modules folder
+4. Once that's been done, to run the app, type `npm run dev` this will start the server
+5. To view the app in browser, go to http://localhost:5173/
+6. To stop the server, at the command prompt click CTRL+C on Windows/Mac/Linux
+7. To run tests, at the command prompt type `npm run test`. When this command is run, the test runner will continue to run and 'watch' for any file changes and auto run the tests with each change
+8. To manually re-run the tests, type `a` and to exit the test process, type `d`
